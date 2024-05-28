@@ -1,0 +1,9 @@
+SELECT SETVAL('chains_chid_seq', (SELECT MAX(chid) FROM chains));
+SELECT SETVAL('hotel_hid_seq', (SELECT MAX(hid) FROM hotel));
+SELECT SETVAL('employee_eid_seq', (SELECT MAX(eid) FROM employee));
+SELECT SETVAL('login_lid_seq', (SELECT MAX(lid) FROM login));
+SELECT SETVAL('roomdescription_rdid_seq', (SELECT MAX(rdid) FROM roomdescription));
+SELECT SETVAL('room_rid_seq', (SELECT MAX(rid) FROM room));
+SELECT SETVAL('roomunavailable_ruid_seq', (SELECT MAX(ruid) FROM roomunavailable));
+SELECT SETVAL('client_clid_seq', (SELECT MAX(clid) FROM client));
+SELECT SETVAL('reserve_reid_seq', (SELECT MAX(reid) FROM reserve));

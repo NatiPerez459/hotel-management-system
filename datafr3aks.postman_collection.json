@@ -1,0 +1,1023 @@
+{
+	"info": {
+		"_postman_id": "dbb838d5-550b-4dc8-a5f6-3c8da1f19f12",
+		"name": "datafr3aks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29071870",
+		"_collection_link": "https://lively-crescent-295594.postman.co/workspace/datafr3aks~e8816f86-3cc7-4c92-93d5-1d961834698d/collection/34111883-dbb838d5-550b-4dc8-a5f6-3c8da1f19f12?action=share&source=collection_link&creator=29071870"
+	},
+	"item": [
+		{
+			"name": "room",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/room",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"room"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "room/<id>",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/room/1",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"room",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "roomdescription",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/roomdescription",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"roomdescription"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "roomdescription/<id>",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/roomdescription/1",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"roomdescription",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "roomunavailable",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/roomunavailable",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"roomunavailable"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "roomunavailable/<id>",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/roomunavailable/1",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"roomunavailable",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/login",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login/<id>",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/login/1",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"login",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "chains",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/chains",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"chains"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "chains/<id>",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/chains/1",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"chains",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "client",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/client",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "client/<id>",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/client/1",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"client",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "reserve",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/reserve",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"reserve"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "reserve/<id>",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/reserve/1",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"reserve",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hotel",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/hotel",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"hotel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hotel/<id>",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/hotel/1",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"hotel",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "employee",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/employee",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"employee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "employee/<id>",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/employee/1",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"employee",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "most/reservation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"eid\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/most/reservation",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"most",
+						"reservation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "most/profitmonth",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"eid\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/most/profitmonth",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"most",
+						"profitmonth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "most/revenue",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"eid\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/most/revenue",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"most",
+						"revenue"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "paymentmethod",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"eid\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/paymentmethod",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"paymentmethod"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "least/rooms",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"eid\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/least/rooms",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"least",
+						"rooms"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "most/capacity",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"eid\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/most/capacity",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"most",
+						"capacity"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hotel/<id>/handicaproom",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"eid\": 9\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/hotel/1/handicaproom",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"hotel",
+						"1",
+						"handicaproom"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hotel/<id>/leastreserve",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"eid\": 9\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/hotel/1/leastreserve",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"hotel",
+						"1",
+						"leastreserve"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hotel/<id>/mostcreditcard",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"eid\": 9\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/hotel/1/mostcreditcard",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"hotel",
+						"1",
+						"mostcreditcard"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hotel/<id>/highestpaid",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"eid\": 9\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/hotel/1/highestpaid",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"hotel",
+						"1",
+						"highestpaid"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hotel/<id>/mostdiscount",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"eid\": 9\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/hotel/1/mostdiscount",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"hotel",
+						"1",
+						"mostdiscount"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hotel/<id>/roomtype",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"eid\": 9\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/hotel/1/roomtype",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"hotel",
+						"1",
+						"roomtype"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hotel/<id>/leastguests",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"eid\": 9\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://hotel-analytical-system-e6a256acfaf3.herokuapp.com/datafr3aks/hotel/1/leastguests",
+					"protocol": "https",
+					"host": [
+						"hotel-analytical-system-e6a256acfaf3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"datafr3aks",
+						"hotel",
+						"1",
+						"leastguests"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
